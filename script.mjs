@@ -6,7 +6,7 @@ const app = express();
 const PORT = 3000;
 
 //Middleware
-
+app.use(express.json());
 //globalerror handling
 
 //server listener
